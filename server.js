@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 
 app.get("/", (req, res) => {
-  res.send("Namada & o Advocates API is running!");
+  res.send("Namada & Co Advocates API is running!");
 });
 
 // Imports Routes
